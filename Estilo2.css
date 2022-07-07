@@ -1,0 +1,98 @@
+/*aplica para contacto*/
+body{
+	background-color: dimgray;
+	color: black;
+}
+
+#barra a{ /*estilo a las etiquetas*/
+	text-decoration: none;
+	color: white;
+}
+
+#barra a:hover{
+	text-decoration: underline;
+	color: darkcyan;
+}
+
+#barra{  /*formato a todo el id: barra*/
+	background: black;  /*color de fondo*/
+	position: absolute;  /*toara todo el espacio*/
+	left: 0;  /*para qur tome el lugar del margen superior izq*/
+	top: 0;  /*para que suba al margen superior*/
+	display: block;
+	width: 100%;
+
+
+}
+
+#barra ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#barra li{
+	float: left;
+}
+
+#barra li a{
+	padding: 30px;  /*espacion entre los elementos*/
+	display: inline-block;
+    text-decoration: none;
+}
+
+#barra li a:hover{
+    background-color: darkgrey;
+    color: darkgoldenrod;
+}
+
+ /*Identificador del contenido*/
+
+ #contenido{
+ 	max-width: 100%;
+ 	position: relative;
+ 	top: 80px;
+ 	margin: 0 auto;
+ 	background-color: darkgreen;
+ 	padding: 2%;
+ }
+
+ #contenido header{
+ 	height: 120px; /*alto*/
+ 	padding: 10px 20 px;
+ 	background-color: #ddd;
+ 	border-radius: 1em;
+ }
+
+ #Principal{
+ 	height: 600px;/*alto*/
+ 	width: 40%; /*ancho*/
+ 	float: left; /*ubican a la izq*/
+ 	padding: 4px; /*espacido*/
+ }
+
+  #Secundario{
+  	height: 600px;/*alto*/
+ 	width: 40%; /*ancho*/
+ 	float: left; /*ubican a la izq*/
+ 	padding: 4px; /*espacido*/
+ }
+
+ #contenido aside{
+ 	width: 20%; /*ancho*/
+ 	float: left; /*ubican a la izq*/
+ 	padding: 4px; /*espacido*/
+ }
+
+ img{
+ 	width: 60%;
+ }
+
+ #contenido footer{
+ 	clear: both;
+ 	width: 100%;
+ 	background-color: darkgoldenrod;
+ 	height: 100px;
+ 	border-radius: 1em;
+ }
+
